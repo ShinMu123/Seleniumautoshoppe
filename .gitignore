@@ -1,0 +1,9 @@
+# Sensitive local config
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Test screenshots
+screenshots/
