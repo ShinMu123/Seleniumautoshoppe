@@ -1,9 +1,29 @@
-# Sensitive local config
+# Sensitive config
 .env
+ui-tests/.env
 
-# Python artifacts
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
 
-# Test screenshots
-screenshots/
+# UI artifacts
+ui-tests/screenshots/
+
+# Performance artifacts (generated, large, and not source code)
+performance-tests/results/
+performance-tests/*.jtl
+performance-tests/jmeter.log
+
+# C# / .NET
+bin/
+obj/
+TestResults/
+*.user
+*.suo
